@@ -50,6 +50,8 @@
 
 /* Image Content Styles */
 .image-section {
+    width: 70%;
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,6 +89,8 @@
 }
 
 .plan-container {
+    width: 70%;
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -111,6 +115,47 @@
     font-weight: 500;
 }
 
+/* Blog Styles */
+.blog {
+    margin-bottom: 130px;
+}
+
+.blog>h3 {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.blog-content {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.blog-text h3 {
+    color: #141415;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 16px;
+    text-align: center;
+}
+
+.blog-text p {
+    color: #434444;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.blog-content div {
+    background: #B4D5F0;
+    border: none;
+    border-radius: 10px;
+    padding: 24px;
+}
+
 /* Image Section Styles */
 .image {
     background-image: url("../assets/images/watch.png"), linear-gradient(90deg, #0168bd 0%, rgba(0, 90, 172, 0) 100%);
@@ -119,7 +164,7 @@
     width: 1140px;
     border: none;
     border-radius: 10px;
-    margin: 0 auto;
+    margin: auto;
     margin-bottom: 130px;
 }
 
@@ -144,8 +189,10 @@
 
 .footer-section {
     color: #F3F3F3;
+    width: 70%;
+    margin: auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 
@@ -185,7 +232,7 @@
 .subscribe-form input {
     width: 100%;
     box-sizing: border-box;
-    padding: 20px;
+    padding: 18px;
     border: 1px solid #FFFFFF;
     border-radius: 10px;
     margin-bottom: 16px;
