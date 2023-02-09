@@ -10,7 +10,7 @@
     font-weight: 600;
     border: none;
     border-radius: 5px;
-    padding: 15px 25px;
+    padding: 15px 35px;
 }
 
 .title {
@@ -30,6 +30,8 @@
 .banner-content {
     text-align: right;
     padding: 290px 230px;
+    width: 30%;
+    margin-left: auto;
 }
 
 .banner-title {
@@ -41,12 +43,12 @@
 
 .banner-text {
     color: #FFFFFF;
-    width: 500px;
-    margin-left: auto;
+    font-size: 16px;
+    font-weight: 400;
     margin-bottom: 32px;
 }
 
-/* Image Section */
+/* Image Content Styles */
 .image-section {
     display: flex;
     justify-content: center;
@@ -59,7 +61,7 @@
     margin-bottom: 24px;
 }
 
-.image-content {
+.image-text {
     color: #434444;
     font-size: 16px;
     font-weight: 400;
@@ -78,7 +80,7 @@
     padding-top: 8px;
 }
 
-/* My Plan Section */
+/* My Plan Styles */
 .plan-title {
     text-align: center;
     margin-bottom: 50px;
@@ -109,4 +111,95 @@
     font-weight: 500;
 }
 
-.footer-section {}
+/* Image Section Styles */
+.image {
+    background-image: url("../assets/images/watch.png"), linear-gradient(90deg, #0168bd 0%, rgba(0, 90, 172, 0) 100%);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    width: 1140px;
+    border: none;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 130px;
+}
+
+.image-content {
+    text-align: left;
+    padding: 60px;
+}
+
+.image-content h3 {
+    width: 50%;
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+/* Footer Styles */
+.footer {
+    background: #141415;
+    padding: 130px;
+}
+
+.footer-section {
+    color: #F3F3F3;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.future-title {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.future-text {
+    font-size: 16px;
+    font-weight: 400;
+    width: 50%;
+    margin-bottom: 24px;
+}
+
+.future-email,
+.future-phone {
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding-top: 16px;
+}
+
+.subscribe-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.subscribe-form input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #F3F3F3;
+}
+
+.subscribe-form button {
+    padding: 18px 36px;
+    border: none;
+    border-radius: 10px;
+    background: #0264D4;
+    color: #F3F3F3;
+    font-size: 20px;
+    font-weight: 600;
+}
