@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cabin', sans-serif;
+}
+
+.btn-primary {
+    color: #0264D4;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 25px;
+}
+
+.title {
+    color: #141415;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/* Banner Styles */
+.banner {
+    background-image: url('../assets/images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 130px;
+}
+
+.banner-content {
+    text-align: right;
+    padding: 290px 230px;
+}
+
+.banner-title {
+    color: #FFFFFF;
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.banner-text {
+    color: #FFFFFF;
+    width: 500px;
+    margin-left: auto;
+    margin-bottom: 32px;
+}
+
+/* Image Section */
+.image-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 130px;
+}
+
+.image-title {
+    margin-bottom: 24px;
+}
+
+.image-content {
+    color: #434444;
+    font-size: 16px;
+    font-weight: 400;
+    width: 50%;
+    margin-bottom: 8px;
+}
+
+.image-item {
+    color: #434444;
+    list-style: none;
+}
+
+.icon-green {
+    color: #2FC55C;
+    padding-right: 10px;
+    padding-top: 8px;
+}
+
+/* My Plan Section */
+.plan-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 130px;
+}
+
+.plan-content {
+    text-align: center;
+}
+
+.plan-content h3 {
+    color: #141415;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 24px 0 16px 0;
+}
+
+.plan-content p {
+    color: #727273;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.footer-section {}
